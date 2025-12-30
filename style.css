@@ -2,8 +2,9 @@
 .aa
 {
     flex-direction: row;
-    background: url(image1.jpg);
+  
     font-size: 24px;
+    background: url(image1.jpg)
 }
 
 .top
@@ -94,10 +95,12 @@
 }
 .one h3{
     text-align: center;
+    border-radius: 20px;
 }
 .container {
   display: flex;
   gap: 10px;
+   border-radius: 20px;
   
 }
 
@@ -106,7 +109,7 @@
   padding: 10px;
   background-color: burlywood;
   background-image: url(image2.jpg);
-  
+  border-radius: 20px;
   text-align: center;
 }
 
@@ -142,15 +145,15 @@
     gap: 3px;
     float: left;
     width: 20%;
+    height: 20px;
+    border-radius: 20px;
 }
 
 
-.Submit {
-    width: fit-content;
-    margin-top: 90px;
-}
-.Submit{
- display: inline-block;
+ 
+.Submit button{
+    all: unset ;
+    display: inline-block;
     padding: 10px 20px;
     background: aquamarine;
     text-decoration: none;
@@ -161,3 +164,15 @@
     margin: 0%;
     padding: 5px;
     text-align: center;
+    box-sizing: border-box; 
+    margin-top: 10px;
+    border-radius: 20px;
+    
+
+}
+
+input{
+    height: 20px;
+    margin-bottom: 15px;
+
+}

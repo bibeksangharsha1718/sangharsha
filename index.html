@@ -114,20 +114,23 @@
 
     <div class="final">
         <div class="feedback">
+        <form action="https://formspree.io/f/mkonanll" method="POST" required >
             <label> Name</label>
-            <input type="text" placeholder="Your name ">
+            <input type="text" name="name" placeholder="Your name " required >
             <br>
              <label> Email</label>
-            <input type="email" placeholder="Enter your eamil address ">
+            <input type="email"  name=" Email" placeholder="  Enter your eamil address " required >
             <br>
-             <label> password</label>
-            <input type="password" placeholder="Enter your password">
             
             <div style="height: 10px;"></div>
 
-
-             <label> feedback</label>
-            <textarea "message" >  </textarea>
+            <label> feedback</label>
+        <textarea rows="2" cols="20" name="message" placeholder="Enter your message" required></textarea>
+            
+             <div class = "Submit">
+             <button type="submit">Submit</button>
+        </div>
+         </form>
 
        
        </div>
@@ -150,12 +153,6 @@
        
 </div>
     <br>
-       <div class = "Submit">
-            <a href="#"> Submit </a>
-        </div>
-
- 
-
 
      <div style="height: 300px;"></div>
     
