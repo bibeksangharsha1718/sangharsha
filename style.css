@@ -1,0 +1,163 @@
+
+.aa
+{
+    flex-direction: row;
+    background: url(image1.jpg);
+    font-size: 24px;
+}
+
+.top
+{
+    top: 0px;
+    background-color: antiquewhite;
+    color: red;
+    margin-top: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    margin-bottom: 2px;
+    left: 0%;
+    right: 0%;
+    height: 50%;
+    
+}
+.button
+{
+    background-color: black;
+    color: aliceblue;
+}
+
+.para
+ {
+     text-align: center;
+    max-width: 700px;
+    margin: 40px auto;
+}
+.boss {
+    position: fixed;         
+    top: 0%;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+
+
+    display: flex;
+    align-items: center;
+    gap: 700px;
+    height: 70px;
+    background-color: rgb(38, 213, 229);
+    padding: 10px 20px;
+    z-index: 1000;
+    border: 5px;
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+    background-color: rgb(38, 213, 229);
+    
+}
+.top h2 {
+    margin-bottom: 2px;
+    width: 100%;
+    height: fit-content;
+    text-decoration: double;
+   
+}
+
+
+.skill {
+  text-align: center;
+  border: 2px solid #000;
+  width: 200px;
+  padding: 15px;
+  margin: auto;
+  border-radius: 20px;
+  background-image: url(yt.jpg);
+   color: white;  
+
+}
+
+    .skill h3{
+       color: #333;
+    }
+.skill ul {
+  list-style: none ;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+.skill a:hover {
+  color: white, 15, 18);
+  text-decoration: none;
+}
+.one h3{
+    text-align: center;
+}
+.container {
+  display: flex;
+  gap: 10px;
+  
+}
+
+.box {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: burlywood;
+  background-image: url(image2.jpg);
+  
+  text-align: center;
+}
+
+
+.project-link
+{
+    text-decoration: none;
+    border: 3px #333 solid;
+    padding: 5px;
+    background-image: url(image2.jpg);
+   
+}
+
+.contact{
+    text-align: center; 
+    float: right;
+    width: 50%;
+}
+.contact a {
+    margin: 0 10px;  
+}
+
+.final{
+     display: flex;
+     gap: 50;
+    text-align: left;
+}
+
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    float: left;
+    width: 20%;
+}
+
+
+.Submit {
+    width: fit-content;
+    margin-top: 90px;
+}
+.Submit{
+ display: inline-block;
+    padding: 10px 20px;
+    background: aquamarine;
+    text-decoration: none;
+    border: 10pc;
+    color: #333;
+    border: 2px solid #ff8fa3;
+    font-size: 16px;
+    margin: 0%;
+    padding: 5px;
+    text-align: center;
